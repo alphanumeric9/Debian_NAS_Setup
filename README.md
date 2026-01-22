@@ -1,4 +1,17 @@
-# Debian_NAS_Setup: A Complete Guide
+# Debian Based NAS Setup: A Complete Guide
+
+Debian can be run on virtually any computer found today. Hence This Guide is the Useful for conversion of old computers as a NAS.
+
+## Before Getting Started: Requirements
+A Computer that has the following:
+1) Dual Core Processor or higher
+2) 4GB+ RAM (no ZFS) & 8GB+ (for ZFS) -> DDR3+
+3) Storage is Subject to user; Minimum Storage required is 50GB for OS and other services
+4) Network
+### Network Requirements
+Minimum 40Mbps Connection Speed
+For Seamless experience, 40 Mbps network with ethernet connected to the computer, else a wifi speed of 100 Mbps
+
 This Debian NAS Setup has the following:
 1) Debian 12
 2) Web_Based Management
