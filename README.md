@@ -1,23 +1,41 @@
-# Debian Based NAS Setup: A Complete Guide
+# Debian Based NAS Setup: A Complete Guide to accessing your storage Device from anywhere in the world
 
-Debian can be run on virtually any computer found today. Hence This Guide is the Useful for conversion of old computers as a NAS.
+Debian can be run on virtually any computer found today. This Guide is useful for conversion of old computers to NAS Systems.
 
 ## Before Getting Started: Requirements
 A Computer that has the following:
-1) Dual Core Processor or higher
-2) 4GB+ RAM (no ZFS) & 8GB+ (for ZFS) -> DDR3+
-3) Storage is Subject to user; Minimum Storage required is 50GB for OS and other services
-4) Network
+- Dual-core processor or higher
+- 4 GB RAM minimum (non-ZFS)
+- 8 GB RAM or more (recommended for ZFS)
+- Storage: User-defined  
+  - Minimum 50 GB required for the OS and services
+- Network connectivity (Ethernet or Wi-Fi)
+  
 ### Network Requirements
-Minimum 40Mbps Connection Speed
-For Seamless experience, 40 Mbps network with ethernet connected to the computer, else a wifi speed of 100 Mbps
+This NAS is designed for both local and remote access.
 
-This Debian NAS Setup has the following:
-1) Debian 12
-2) Web_Based Management
-3) Dockerized Core Services
-4) Storage Architecture
-5) Resilience Scripts(Watchdogs)
-6) Security
-7) Automation & Monitoring
-8) Documentation and Configuration Management
+In BOTH cases, Ethernet is always recommended.
+
+(As it is primarily a "repurpose" project, a WIFI Card will also work.)
+
+> **NOTE:** *Visit the Debian Documentation for the list of Supported Wifi Cards before beginning this project.*
+
+#### Local Network (LAN)
+- Legacy Wi-Fi cards (100 Mbps rated) are widely supported
+  - Real-world throughput may be ~25–40 Mbps
+  - Suitable for light NAS workloads
+
+#### Internet (Remote Access via Tailscale)
+- Minimum 40 Mbps internet connection
+> *The Performance when accessing files remotely depends entirely on ISP bandwidth*
+
+
+## Setup
+This Debian NAS Setup has the following functionalities:
+- Debian 12
+- Web-based management interface
+- Dockerized core services
+- Resilience scripts (watchdogs)
+- Security
+- Automation and monitoring
+- Documentation and configuration management
