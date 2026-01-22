@@ -1,4 +1,4 @@
-# Debian_NAS_Setup
+# Debian_NAS_Setup: A Complete Guide
 This Debian NAS Setup has the following:
 1) Debian 12
 2) Web_Based Management
