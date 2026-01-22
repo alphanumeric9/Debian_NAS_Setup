@@ -1,4 +1,4 @@
-# Debian Based NAS Setup: A Complete Guide to accessing your storage Device from anywhere in the world
+# Debian-Based NAS Setup: A Complete Guide to Accessing Your Storage Device from Anywhere in the World
 
 Debian can be run on virtually any computer found today. This Guide is useful for conversion of old computers to NAS Systems.
 
