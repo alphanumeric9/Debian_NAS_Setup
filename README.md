@@ -1,6 +1,6 @@
 # Debian-Based NAS Setup: A Complete Guide to Accessing Your Storage Device from Anywhere in the World
 
-Debian can be run on virtually any computer found today. This Guide is useful for conversion of old computers to NAS Systems.
+Debian can be run on virtually any computer found today. This guide is useful for conversion of old computers to NAS systems.
 
 ## Before Getting Started: Requirements
 A Computer that has the following:
@@ -16,18 +16,18 @@ This NAS is designed for both local and remote access.
 
 In BOTH cases, Ethernet is always recommended.
 
-(As it is primarily a "repurpose" project, a WIFI Card will also work.)
+(As it is primarily a "repurpose" project, a WiFi Card will also work.)
 
-> **NOTE:** *Visit the Debian Documentation for the list of Supported Wifi Cards before beginning this project.*
+> **NOTE:** *Visit the Debian Documentation for the list of Supported WiFi Cards before beginning this project.*
 
 #### Local Network (LAN)
-- Legacy Wi-Fi cards (100 Mbps rated) are widely supported
+- Legacy WiFi cards (100 Mbps rated) are widely supported
   - Real-world throughput may be ~25–40 Mbps
   - Suitable for light NAS workloads
 
 #### Internet (Remote Access via Tailscale)
 - Minimum 40 Mbps internet connection
-> *The Performance when accessing files remotely depends entirely on ISP bandwidth*
+> *Performance when accessing files remotely depends entirely on ISP bandwidth*
 
 
 ## Setup
