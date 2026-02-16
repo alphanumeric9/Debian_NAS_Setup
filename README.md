@@ -5,9 +5,9 @@ Debian can be run on virtually any computer found today. This guide is useful fo
 ## Before Getting Started: Requirements
 A Computer that has the following:
 - Dual-core processor or higher
-- 4 GB RAM minimum (non-ZFS)
-- 8 GB RAM or more (recommended for ZFS)
-- Storage: User-defined  
+- 4 GB RAM minimum (non-ZFS build)
+- 8 GB RAM or more (recommended for ZFS build)
+- Storage: User-defined
   - Minimum 50 GB required for the OS and services
 - Network connectivity (Ethernet or Wi-Fi)
   
