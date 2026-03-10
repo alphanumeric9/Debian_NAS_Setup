@@ -16,7 +16,7 @@ This NAS is designed for both local and remote access.
 
 In BOTH cases, Ethernet is always recommended.
 
-(As it is primarily a "repurpose" project, a WiFi Card will also work.)
+(As it is primarily a "repurpose" project, WiFi Cards also work.)
 
 > **NOTE:** *Visit the Debian Documentation for the list of Supported WiFi Cards before beginning this project.*
 
