@@ -590,4 +590,20 @@ First run<br>
 */10 * * * * /usr/local/bin/battery-watchdog.sh >> /var/log/cron-battery-watchd>
 0 4 * * 0 /usr/local/bin/fdupes-scan.sh >> /var/log/cron-fdupes.log 2>&1
 ```
+## HOW TO ACCESS YOUR SERVER:
+
+1. LOGIN in to your tailscale account<br>
+2. Under Admin Console, Find Your Listed NAS Server Name<br>
+3. Extract the IP Address of your Server Under Addresses
+4. Use the following addresses on your server:
+FOR COCKPIT
+`http://pasteipaddress:9090`
+FOR JELLYFIN
+`http://pasteipaddress:8096`
+FOR FILE BROWSER
+`http://pasteipaddress:8080`
+Initial Login for File browser will be
+user:admin
+password:admin
+you will be required to change it, or just change it on your own
 
