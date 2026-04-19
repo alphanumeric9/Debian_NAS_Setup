@@ -36,7 +36,7 @@ In BOTH cases, Ethernet is always recommended.
 This Debian NAS Setup has the following functionalities:
 - Debian 12
 - Web-based management interface
-- Dockerized core services
+- Dockerized Jellyfin service
 - Resilience scripts (watchdogs)
 - Security
 - Automation and monitoring
@@ -596,14 +596,14 @@ First run<br>
 2. Under Admin Console, Find Your Listed NAS Server Name<br>
 3. Extract the IP Address of your Server Under Addresses
 4. Use the following addresses on your server:
-FOR COCKPIT
-`http://pasteipaddress:9090`
-FOR JELLYFIN
-`http://pasteipaddress:8096`
-FOR FILE BROWSER
-`http://pasteipaddress:8080`
-Initial Login for File browser will be
-user:admin
-password:admin
+FOR COCKPIT<br>
+`http://pasteipaddress:9090` <br>
+FOR JELLYFIN<br>
+`http://pasteipaddress:8096`<br>
+FOR FILE BROWSER<br>
+`http://pasteipaddress:8080`<br>
+Initial Login for File browser will be<br>
+user:admin<br>
+password:admin<br>
 you will be required to change it, or just change it on your own
 
